@@ -106,5 +106,5 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## Acknowledgements
 
 - Seattle University – *CPSP 5071: Data Management for Data Scientists (Winter 2026)*  
-- GitHub Repository: IsabelleLefebvre97 [PWHL-Data-Reference]([https://github.com/IsabelleLefebvre97/PWHL-Data-Reference])
+- GitHub Repository: IsabelleLefebvre97 [PWHL-Data-Reference](https://github.com/IsabelleLefebvre97/PWHL-Data-Reference)
 - Python open-source community for enabling reproducible scientific analysis  
