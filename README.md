@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-This project designs and implements a relational database to model professional women’s hockey data from the Professional Women’s Hockey League (PWHL).
+This project designs and implements a relational database to model hockey data from the Professional Women’s Hockey League (PWHL).
 The database captures key entities such as players, teams, games, seasons, locations, goals, assists, shots, penalties, and player tenure, allowing for structured analysis of both roster information and in-game events.
 
 Using SQLite, we translate an entity–relationship diagram into a normalized relational schema, populate the database with realistic sample data, and write SQL queries using JOINs and subqueries to answer real-world hockey analytics questions related to player performance, team composition, and game outcomes.
