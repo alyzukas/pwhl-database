@@ -22,7 +22,7 @@ pwhl-database/
 ├── data/
 │   ├── raw/                  # Original CSV / Excel files (players, games, penalties, etc.)
 │   ├── processed/            # Cleaned or transformed CSVs used for insertion
-│   └── pwhl_hockey.db             # SQLite database file
+│   └── pwhl_hockey.db        # SQLite database file
 │
 ├── sql/
 │   ├── create_tables.sql     # CREATE TABLE statements + foreign keys
@@ -35,7 +35,7 @@ pwhl-database/
 │   └── erd.png               # Entity Relationship Diagram (ERD)
 │
 ├── reports/
-│   └── [ADD]part3_queries.pdf     # Written explanation of JOINs & subqueries (for submission)
+│   └── [ADD]part3_queries.pdf   # Written explanation of JOINs & subqueries (for submission)
 │
 ├── README.md                 # Project overview, schema explanation, usage
 └── .gitignore                # Ignore DB files if required
