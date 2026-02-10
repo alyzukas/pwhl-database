@@ -25,10 +25,11 @@ pwhl-database/
 │   └── pwhl_hockey.db        # SQLite database file
 │
 ├── sql/
-│   ├── create_tables.sql     # CREATE TABLE statements + foreign keys
-│   ├── insert_data.sql       # INSERT statements for all tables
-│   ├── initial_queries.sql   # Initial validation queries
-|   ├── subqueries.sql      # JOINs, subqueries
+│   ├── create_tables.sql       # CREATE TABLE statements + foreign keys
+│   ├── insert_data.sql         # INSERT statements for all tables
+│   ├── initial_queries.sql     # Initial validation queries
+|   ├── subqueries.sql          # JOINs, subqueries
+|   ├── multi_table_queries.sql # Multi-table SQL queries used to analyse output in pandas
 │
 ├── diagrams/
 │   └── erd.png               # Entity Relationship Diagram (ERD)
