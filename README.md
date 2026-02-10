@@ -34,6 +34,10 @@ pwhl-database/
 ├── diagrams/
 │   └── erd.png                   # Entity Relationship Diagram (ERD)
 │
+├── code/
+│   └── data_cleaning.ipynb       # Jupyter Notebook used for data cleaning and transformation
+│   └── (week 7, etc).ipynb       # Jupyter Notebook used for data cleaning and transformation
+│
 ├── reports/
 │   └── [ADD]part3_queries.pdf    # Written explanation of JOINs & subqueries (for submission)
 │
