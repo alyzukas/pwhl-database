@@ -28,7 +28,7 @@ pwhl-database/
 │   ├── create_tables.sql     # CREATE TABLE statements + foreign keys
 │   ├── insert_data.sql       # INSERT statements for all tables
 │   ├── initial_queries.sql   # Initial validation queries
-|   ├── test_queries.sql      # JOINs, subqueries
+|   ├── subqueries.sql      # JOINs, subqueries
 │
 ├── diagrams/
 │   └── erd.png               # Entity Relationship Diagram (ERD)
