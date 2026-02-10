@@ -77,17 +77,15 @@ This repository tracks the incremental development of a relational database and 
   - Generated summary-level insights such as player scoring totals and team performance
  
 - ### Week 6 – Data Cleaning & Transformation (In Progress)
-
-In this milestone, the project transitions from SQL querying to data analysis using Python and pandas.
-
-- Multi-table SQL JOIN queries are written and saved in `week6_multi_table_queries.sql`
-- One JOIN-based query is selected as the primary analysis dataset
-- The SQLite database is connected to a Jupyter Notebook using `sqlite3`
-- Query results are loaded directly into pandas using `pd.read_sql()`
-- The resulting DataFrame is inspected using:
-  - `df.head()`
-  - `df.info()`
-  - `df.describe()`
+  - In this milestone, the project transitions from SQL querying to data analysis using Python and pandas.
+  - Multi-table SQL JOIN queries are written and saved in `week6_multi_table_queries.sql`
+  - One JOIN-based query is selected as the primary analysis dataset
+  - The SQLite database is connected to a Jupyter Notebook using `sqlite3`
+  - Query results are loaded directly into pandas using `pd.read_sql()`
+  - The resulting DataFrame is inspected using:
+    - `df.head()`
+    - `df.info()`
+    - `df.describe()`
 
 #### Data Cleaning & Transformation
 Within pandas, the dataset is cleaned and transformed to improve usability and analytical clarity:
