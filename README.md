@@ -20,8 +20,8 @@ Using SQLite, we translate an entity–relationship diagram into a normalized re
 pwhl-database/
 │
 ├── data/
-│   ├── raw/                  # Original CSV / Excel files (players, games, penalties, etc.)
-│   ├── processed/            # Cleaned or transformed CSVs used for insertion
+│   ├── dummy_data.xlsx/      # Original Excel files (players, games, penalties, etc.)
+│   ├── cleaned_data.csv/     # Cleaned and transformed CSVs used for insertion
 │   └── pwhl_hockey.db        # SQLite database file
 │
 ├── sql/
@@ -29,7 +29,6 @@ pwhl-database/
 │   ├── insert_data.sql       # INSERT statements for all tables
 │   ├── initial_queries.sql   # Initial validation queries
 |   ├── test_queries.sql      # JOINs, subqueries
-│   └── drop_tables.sql       # Optional reset script (DROP TABLE statements)
 │
 ├── diagrams/
 │   └── erd.png               # Entity Relationship Diagram (ERD)
