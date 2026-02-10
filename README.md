@@ -8,9 +8,15 @@ The database captures key entities such as players, teams, games, seasons, locat
 
 Using SQLite, we translate an entity–relationship diagram into a normalized relational schema, populate the database with realistic sample data, and write SQL queries using JOINs and subqueries to answer real-world hockey analytics questions related to player performance, team composition, and game outcomes.
 
-- **Objective**: Build a normalized relational database for PWHL hockey data and demonstrate relational querying using JOINs and subqueries.
+Using python 
+
+- **Objective**: Build a normalized relational database for PWHL hockey data and demonstrate the full data workflow—from relational querying with JOINs and subqueries to analysis-ready datasets using Python and pandas.
 - **Domain**: Sports Analytics / Data Management / Relational Databases
-- **Key Techniques**: Schema design, primary and foreign keys, multi-table JOINs, nested subqueries, data integrity constraints
+- **Key Techniques:**
+  -  Schema design, primary and foreign keys, multi-table JOINs, nested subqueries, data integrity constraints, pandas-based data cleaning and transformation.
+  -  As the project progresses, query outputs are transitioned into pandas DataFrames to support data cleaning, transformation, and downstream analytics.
+
+
 
 ---
 
@@ -44,6 +50,70 @@ pwhl-database/
 ├── README.md                     # Project overview, schema explanation, usage
 └── .gitignore                    # Ignore DB files if required
 ```
+---
+
+## Project Milestones & Progress
+
+This repository tracks the incremental development of a relational database and analytics workflow for PWHL hockey data. The project is structured around weekly milestones that mirror a real-world data pipeline, progressing from schema design to SQL querying, data cleaning, ETL, and optimization.
+
+### Completed Milestones
+
+- **Week 2 – Team Formation & Project Selection**
+  - Selected the PWHL hockey domain
+  - Designed an ER diagram identifying core entities and relationships
+
+- **Week 3 – Initial SQL Queries**
+  - Created normalized tables using SQLite
+  - Inserted realistic sample data
+  - Wrote basic SQL queries to validate schema and relationships
+
+- **Week 4 – JOINs & Subqueries**
+  - Implemented multi-table JOIN queries across players, teams, games, and events
+  - Used INNER JOIN and LEFT JOIN to preserve relational integrity
+  - Applied subqueries to answer domain-driven analytics questions
+
+- **Week 5 – Aggregation & Grouping**
+  - Used GROUP BY with aggregation functions (COUNT, SUM, AVG)
+  - Generated summary-level insights such as player scoring totals and team performance
+ 
+- ### Week 6 – Data Cleaning & Transformation (In Progress)
+
+In this milestone, the project transitions from SQL querying to data analysis using Python and pandas.
+
+- Multi-table SQL JOIN queries are written and saved in `week6_multi_table_queries.sql`
+- One JOIN-based query is selected as the primary analysis dataset
+- The SQLite database is connected to a Jupyter Notebook using `sqlite3`
+- Query results are loaded directly into pandas using `pd.read_sql()`
+- The resulting DataFrame is inspected using:
+  - `df.head()`
+  - `df.info()`
+  - `df.describe()`
+
+#### Data Cleaning & Transformation
+Within pandas, the dataset is cleaned and transformed to improve usability and analytical clarity:
+- Missing values are identified and handled using appropriate strategies
+- Column names are standardized and data types corrected
+- New derived features are created (e.g., full player name, aggregated performance metrics)
+- The cleaned dataset is optionally exported as `cleaned_data.csv`
+
+This step produces an analysis-ready dataset that will be reused in future milestones.
+
+---
+
+## Upcoming Milestones
+
+- **Week 7 – ETL Pipeline**
+  - Build a functional ETL pipeline to ingest data from CSV/JSON/API sources into SQLite
+
+- **Week 8 – Indexing & Query Optimization**
+  - Improve query performance using indexing
+  - Compare optimized vs non-optimized query execution
+
+- **Week 9 – Final Submission & Presentation**
+  - Finalize database, analytics workflow, and documentation
+  - Record a concise presentation demonstrating the project
+
+
 ---
 
 ## Data Sources
