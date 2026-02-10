@@ -8,10 +8,10 @@ The database captures key entities such as players, teams, games, seasons, locat
 
 Using SQLite, we translate an entity–relationship diagram into a normalized relational schema, populate the database with realistic sample data, and write SQL queries using JOINs and subqueries to answer real-world hockey analytics questions related to player performance, team composition, and game outcomes.
 
-Using python 
-
 - **Objective**: Build a normalized relational database for PWHL hockey data and demonstrate the full data workflow—from relational querying with JOINs and subqueries to analysis-ready datasets using Python and pandas.
+  
 - **Domain**: Sports Analytics / Data Management / Relational Databases
+  
 - **Key Techniques:**
   -  Schema design, primary and foreign keys, multi-table JOINs, nested subqueries, data integrity constraints, pandas-based data cleaning and transformation.
   -  As the project progresses, query outputs are transitioned into pandas DataFrames to support data cleaning, transformation, and downstream analytics.
