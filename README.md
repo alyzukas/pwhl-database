@@ -97,7 +97,10 @@ Foreign key constraints enforce referential integrity between tables.
 
 ## Authors
 
-- **Alyssa Zukas** — [alyzukas@seattu.edu](mailto:alyzukas@seattu.edu)  
+- **Alyssa Zukas** — [alyzukas@seattu.edu](mailto:alyzukas@seattu.edu)
+- **Brisa**
+- **EJ**
+- **Njenga**
 
 ---
 
