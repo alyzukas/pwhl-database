@@ -20,25 +20,25 @@ Using SQLite, we translate an entity–relationship diagram into a normalized re
 pwhl-database/
 │
 ├── data/
-│   ├── dummy_data.xlsx/      # Original Excel files (players, games, penalties, etc.)
-│   ├── cleaned_data.csv/     # Cleaned and transformed CSVs used for insertion
-│   └── pwhl_hockey.db        # SQLite database file
+│   ├── dummy_data.xlsx/          # Original Excel files (players, games, penalties, etc.)
+│   ├── cleaned_data.csv/         # Cleaned and transformed CSVs used for insertion
+│   └── pwhl_hockey.db            # SQLite database file
 │
 ├── sql/
-│   ├── create_tables.sql       # CREATE TABLE statements + foreign keys
-│   ├── insert_data.sql         # INSERT statements for all tables
-│   ├── initial_queries.sql     # Initial validation queries
-|   ├── subqueries.sql          # JOINs, subqueries
-|   ├── multi_table_queries.sql # Multi-table SQL queries used to analyse output in pandas
+│   ├── create_tables.sql         # CREATE TABLE statements + foreign keys
+│   ├── insert_data.sql           # INSERT statements for all tables
+│   ├── initial_queries.sql       # Initial validation queries
+|   ├── subqueries.sql            # JOINs, subqueries
+|   ├── multi_table_queries.sql   # Multi-table SQL queries used to analyse output in pandas
 │
 ├── diagrams/
-│   └── erd.png               # Entity Relationship Diagram (ERD)
+│   └── erd.png                   # Entity Relationship Diagram (ERD)
 │
 ├── reports/
-│   └── [ADD]part3_queries.pdf   # Written explanation of JOINs & subqueries (for submission)
+│   └── [ADD]part3_queries.pdf    # Written explanation of JOINs & subqueries (for submission)
 │
-├── README.md                 # Project overview, schema explanation, usage
-└── .gitignore                # Ignore DB files if required
+├── README.md                     # Project overview, schema explanation, usage
+└── .gitignore                    # Ignore DB files if required
 ```
 ---
 
