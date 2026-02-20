@@ -40,7 +40,7 @@ pwhl-database/
 |   ├───── query2_shots.sql         # Additional AGG query to supplement analysis (not used in main analysis)
 |   ├───── schema_updated.sql       # Updated relational schema reflecting refinements made during Week 6.
 |   ├───── sample_data_updated.sql  # Updated sample data insert statements aligned with the revised schema
-|   └───── week6_multi_table_queries.sql
+|   └───── multi_table_queries.sql
 │
 ├── diagrams/
 │   └── erd.png                   # Entity Relationship Diagram (ERD)
