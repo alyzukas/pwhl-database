@@ -26,20 +26,20 @@ Using SQLite, we translate an entity–relationship diagram into a normalized re
 pwhl-database/
 │
 ├── data/
-│   ├── dummy_data.xlsx/          # Original Excel files (players, games, penalties, etc.)
-│   ├── cleaned_data.csv/         # Cleaned and transformed CSVs used for insertion
+│   └── dummy_data.xlsx/          # Original Excel files (players, games, penalties, etc.)
+│   └── cleaned_data.csv/         # Cleaned and transformed CSVs used for insertion
 │   └── pwhl_hockey.db            # SQLite database file
 │
 ├── sql/
-│   ├── create_tables.sql         # CREATE TABLE statements + foreign keys
-│   ├── insert_data.sql           # INSERT statements for all tables
-│   ├── initial_queries.sql       # Initial validation queries
-|   ├── subqueries.sql            # JOINs, subqueries
-|   ├── Week 6                    # Contains the SQL and schema updates used for data cleaning and transformation
-|   ├───── query1_shots.sql         # Primary shot-level JOIN query (used to generate main analysis dataset)
-|   ├───── query2_shots.sql         # Additional AGG query to supplement analysis (not used in main analysis)
-|   ├───── schema_updated.sql       # Updated relational schema reflecting refinements made during Week 6.
-|   ├───── sample_data_updated.sql  # Updated sample data insert statements aligned with the revised schema
+│   └── create_tables.sql         # CREATE TABLE statements + foreign keys
+│   └── insert_data.sql           # INSERT statements for all tables
+│   └── initial_queries.sql       # Initial validation queries
+|   └── subqueries.sql            # JOINs, subqueries
+|   └── Week 6                    # Contains the SQL and schema updates used for data cleaning and transformation
+|   └───── query1_shots.sql         # Primary shot-level JOIN query (used to generate main analysis dataset)
+|   └───── query2_shots.sql         # Additional AGG query to supplement analysis (not used in main analysis)
+|   └───── schema_updated.sql       # Updated relational schema reflecting refinements made during Week 6.
+|   └───── sample_data_updated.sql  # Updated sample data insert statements aligned with the revised schema
 |   └───── multi_table_queries.sql
 │
 ├── diagrams/
@@ -51,7 +51,7 @@ pwhl-database/
 │
 ├── reports/
 │   └── [ADD]part3_queries.pdf    # Written explanation of JOINs & subqueries (for submission)
-│   └── [ADD]part3_queries.pdf    # Written explanation of JOINs & subqueries (for submission)
+│   └── week6_readme.txt          # Written explanation of data cleaning & transformation techniques (for submission)
 │
 ├── README.md                     # Project overview, schema explanation, usage
 └── .gitignore                    # Ignore DB files if required
