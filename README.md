@@ -51,6 +51,7 @@ pwhl-database/
 │
 ├── reports/
 │   └── [ADD]part3_queries.pdf    # Written explanation of JOINs & subqueries (for submission)
+│   └── [ADD]part3_queries.pdf    # Written explanation of JOINs & subqueries (for submission)
 │
 ├── README.md                     # Project overview, schema explanation, usage
 └── .gitignore                    # Ignore DB files if required
