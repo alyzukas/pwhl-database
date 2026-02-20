@@ -83,23 +83,23 @@ This repository tracks the incremental development of a relational database and 
   - Generated summary-level insights such as player scoring totals and team performance
  
 - **Week 6 – Data Cleaning & Transformation**
-  In this milestone, the project transitions from SQL querying to data analysis using Python and pandas.
-  - Multi-table SQL JOIN queries are written and saved in `multi_table_queries.sql`
-  - One JOIN-based query is selected as the primary analysis dataset
-  - The SQLite database is connected to a Jupyter Notebook using `sqlite3`
-  - Query results are loaded directly into pandas using `pd.read_sql()`
-  - The resulting DataFrame is inspected using:
-    - `df.head()`
-    - `df.info()`
-    - `df.describe()`
+  - In this milestone, the project transitions from SQL querying to data analysis using Python and pandas.
+    - Multi-table SQL JOIN queries are written and saved in `multi_table_queries.sql`
+    - One JOIN-based query is selected as the primary analysis dataset
+    - The SQLite database is connected to a Jupyter Notebook using `sqlite3`
+    - Query results are loaded directly into pandas using `pd.read_sql()`
+    - The resulting DataFrame is inspected using:
+      - `df.head()`
+      - `df.info()`
+      - `df.describe()`
       
-Within pandas, the dataset is cleaned and transformed to improve usability and analytical clarity:
-- Missing values are identified and handled using appropriate strategies
-- Column names are standardized and data types corrected
-- New derived features are created (e.g., full player name, aggregated performance metrics)
-- The cleaned dataset is optionally exported as `cleaned_data.csv`
+  - Within pandas, the dataset is cleaned and transformed to improve usability and analytical clarity:
+    - Missing values are identified and handled using appropriate strategies
+    - Column names are standardized and data types corrected
+    - New derived features are created (e.g., full player name, aggregated performance metrics)
+    - The cleaned dataset is optionally exported as `cleaned_data.csv`
 
-This step produces an analysis-ready dataset that will be reused in future milestones.
+  - This step produces an analysis-ready dataset that will be reused in future milestones.
 
 - **Week 7 – ETL Pipeline**
   - Build a functional ETL pipeline to ingest data from CSV/JSON/API sources into SQLite
