@@ -27,9 +27,9 @@ pwhl-database/
 │
 ├── data/
 │   └── pwhl_hockey.db            # SQLite database file
-│   └── dummy_data.xlsx/          # Original Excel files (players, games, penalties, etc.)
-│   └── cleaned_data.csv/         # Cleaned and transformed data used for insertion
-│   └── final_data.csv/           # Final data from ETL pipeline
+│   └── dummy_data.xlsx          # Original Excel files (players, games, penalties, etc.)
+│   └── cleaned_data.csv         # Cleaned and transformed data used for insertion
+│   └── final_data.csv           # Final data from ETL pipeline
 │
 ├── sql/
 │   └── create_tables.sql         # CREATE TABLE statements + foreign keys
@@ -53,6 +53,7 @@ pwhl-database/
 ├── reports/
 │   └── [ADD]part3_queries.pdf    # Written explanation of JOINs & subqueries (for submission)
 │   └── week6_readme.txt          # Written explanation of data cleaning & transformation techniques (for submission)
+│   └── week7_readme.txt          # Written explanation of ETL pipeline design and implementation techniques (for submission)
 │
 ├── README.md                     # Project overview, schema explanation, usage
 └── .gitignore                    # Ignore DB files if required
