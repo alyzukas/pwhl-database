@@ -64,8 +64,6 @@ pwhl-database/
 
 This repository tracks the incremental development of a relational database and analytics workflow for PWHL hockey data. The project is structured around weekly milestones that mirror a real-world data pipeline, progressing from schema design to SQL querying, data cleaning, ETL, and optimization.
 
-### Completed Milestones
-
 - **Week 2 – Team Formation & Project Selection**
   - Selected the PWHL hockey domain
   - Designed an ER diagram identifying core entities and relationships
