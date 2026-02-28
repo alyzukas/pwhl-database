@@ -26,9 +26,10 @@ Using SQLite, we translate an entity–relationship diagram into a normalized re
 pwhl-database/
 │
 ├── data/
-│   └── dummy_data.xlsx/          # Original Excel files (players, games, penalties, etc.)
-│   └── cleaned_data.csv/         # Cleaned and transformed CSVs used for insertion
 │   └── pwhl_hockey.db            # SQLite database file
+│   └── dummy_data.xlsx/          # Original Excel files (players, games, penalties, etc.)
+│   └── cleaned_data.csv/         # Cleaned and transformed data used for insertion
+│   └── final_data.csv/           # Final data from ETL pipeline
 │
 ├── sql/
 │   └── create_tables.sql         # CREATE TABLE statements + foreign keys
