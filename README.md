@@ -48,7 +48,7 @@ pwhl-database/
 │
 ├── code/
 │   └── data_cleaning.ipynb       # Jupyter Notebook used for data cleaning and transformation
-│   └── (week 7, etc).ipynb       # Jupyter Notebook used for ... (pending)
+│   └── etl_pipeline.ipynb        # Jupyter Notebook used ETL design and implementation
 │
 ├── reports/
 │   └── [ADD]part3_queries.pdf    # Written explanation of JOINs & subqueries (for submission)
